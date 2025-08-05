@@ -2,6 +2,90 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>VALUNA - Natural Skincare</title>
+  <style>
+    body { margin: 0; font-family: 'Arial', sans-serif; }
+    header {
+      background: white; display: flex; justify-content: space-between; align-items: center;
+      padding: 10px 30px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: sticky; top: 0;
+    }
+    header h1 { margin: 0; color: #e91e63; }
+    nav a {
+      margin: 0 15px; text-decoration: none; color: #555; font-weight: bold;
+    }
+    nav a:hover { color: #e91e63; }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1600180758890-6a66a7e39b24?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+      color: white; text-align: center; padding: 120px 20px;
+    }
+    .hero h2 { font-size: 48px; margin: 0 0 10px; }
+    .hero p { font-size: 20px; }
+
+    .products {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px; padding: 40px; max-width: 1200px; margin: auto;
+    }
+    .product-card {
+      background: white; border-radius: 10px; overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .product-card:hover { transform: scale(1.03); }
+    .product-card img { width: 100%; display: block; }
+    .product-card h3 { margin: 15px; color: #e91e63; }
+    .product-card p { margin: 0 15px 15px; color: #555; }
+
+    footer {
+      text-align: center; padding: 20px; background: #fce4ec; color: #333;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>VALUNA</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Natural Beauty, Pure Confidence</h2>
+    <p>Discover our premium skincare made from nature.</p>
+  </section>
+
+  <section class="products">
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1583405088860-2ecb8f85d6d1?auto=format&fit=crop&w=800&q=80" alt="Serum">
+      <h3>Rose Hydrating Serum</h3>
+      <p>Moisturize and brighten your skin with natural rose extracts.</p>
+    </div>
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1599305090595-37c5c3077600?auto=format&fit=crop&w=800&q=80" alt="Cream">
+      <h3>Whitening Night Cream</h3>
+      <p>Gently repairs and nourishes your skin overnight.</p>
+    </div>
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1582095133179-2988d1a7f76c?auto=format&fit=crop&w=800&q=80" alt="Mask">
+      <h3>Lavender Sleeping Mask</h3>
+      <p>Relax and hydrate your skin with lavender-infused care.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 VALUNA. All rights reserved.
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
   <title>VALUNA - English</title>
 </head>
 <body>
